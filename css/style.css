@@ -253,6 +253,7 @@ a:focus {
 
 .slider_section .detail-box p {
   margin-bottom: 25px;
+  font-size: 1.1rem;
 }
 
 .slider_section .detail-box .btn-box {
@@ -305,11 +306,11 @@ a:focus {
 .slider_section .img_container {
   background-color: #ffffff;
   position: relative;
-  overflow: hidden;
 }
 
 .slider_section .img_container .img-box img {
   width: 100%;
+  position: relative
 }
 
 .slider_section #carouselExampleIndicators {
@@ -380,62 +381,20 @@ a:focus {
   border: none;
 }
 
-.about_section {
-  background-color: #1e1d1d;
-  color: #ffffff;
-}
-
-.about_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.about_section .row .col-lg-7 {
-  padding: 0;
-}
-
-.about_section .detail-box {
-  padding: 45px 0;
-}
-
-.about_section .detail-box h2 {
-  text-transform: uppercase;
-  font-size: 2.5rem;
+.section-title {
+  text-align: center;
   font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 25px;
 }
 
-.about_section .detail-box h2 span {
-  color: #bc0b0b;
+.about-section {
+  padding-top: 25px;
 }
 
-.about_section .detail-box p {
-  margin-top: 25px;
-}
-
-.about_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #bc0b0b;
-  border: 1px solid #bc0b0b;
-  color: #ffffff;
-  border-radius: 0;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  margin-top: 35px;
-}
-
-.about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #bc0b0b;
-}
-
-.about_section .img-box img {
-  width: 100%;
-}
-
-.about_section .section-title {
-  font-size: large;
+.about-text {
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .product_section {
